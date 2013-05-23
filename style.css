@@ -1,0 +1,117 @@
+body {
+  margin: 0 auto; 
+	width: 100%;
+	background-color:#EEE;
+	background-image: url(img/header1empty.png);
+	background-position: top center;
+	background-repeat: repeat-x;
+}
+
+form, fieldset, label, table, tr, td, img {
+	border: none;
+	vertical-align: top;
+}
+
+.wrapper{
+	margin: 0 auto; 
+	width: 980px;
+	position: relative;
+	zoom: 1;
+}
+
+.signup, .signin, .logout {
+	display:none;
+	text-align:right;
+	color:#333;
+}
+
+.menu{
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	float: left;
+}
+
+/* Map 	 ----------------------------------------------- */
+.googleMap {
+	width:980px;
+	height:400px;
+}
+
+/* New Challenge ----------------------------------------------- */
+
+.newch{
+	display: block;
+	float: left;
+	padding: 30px 40px 20px 40px;
+	background-color: #DDD;	
+}
+
+/* Challenge Details ----------------------------------------------- */
+
+#details {
+	display: block;
+	margin-top:0px;
+	background-color:#CCC;
+	display:none;
+	padding-left:60px;
+	padding-right:60px;
+}
+
+#chDesc {	
+	width: 390px; 
+	height: 180px; 		 		
+}
+
+/* Challenge Reply ----------------------------------------------- */
+
+#chReply{
+	width: 390px; 
+	height: 180px; 		 		
+}
+
+/* Thumbs ----------------------------------------------- */
+
+figure{
+	display: block;
+	float: left;
+	width: 250px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	position: relative;
+	line-height: 1.2em;
+}
+
+figure .thumb{
+	display: block;
+	width: 230px;
+	padding: 10px;
+	margin-bottom: 19px;
+	-webkit-box-shadow: 0px 0px 3px rgba(0,0,0,.1); 
+	-moz-box-shadow: 0px 0px 3px rgba(0,0,0,.1);
+	-o-box-shadow: 0px 0px 3px rgba(0,0,0,.1);
+	box-shadow: 0px 0px 3px rgba(0,0,0,.1);
+}
+
+figure img{
+	max-width: 100%;
+		
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+figure .thumb:hover img{
+	opacity: 0.1;
+}
+
+figure figcaption{
+	line-height: 1.5em;
+}
+
+figure figcaption strong{
+	display: block;
+	font-size: 18px;
+	margin-bottom: 11px;
+}
